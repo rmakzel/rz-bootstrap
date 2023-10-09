@@ -108,7 +108,7 @@ img[style*="float:left"]{
 -----------------------------------------*/
 .button,
 a.button,
-#post button,
+#post button:not(.fc-button):not(.rz-doc-search-reset),
 #post input[type="submit"],
 #post input[type="reset"],
 #post input[type="button"],
